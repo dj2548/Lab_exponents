@@ -4,7 +4,7 @@ using System.Security.Cryptography.X509Certificates;
 namespace lab_3
 {
     public class Program
-    {
+    {//code review by minnie. good job.
         public static void Main(string[] args)
         {
            bool run = true;
@@ -27,6 +27,7 @@ namespace lab_3
                 if (input == "n")
                 { 
                 run = false;
+                    Console.WriteLine("Goodbye!");
                     {
 
                     } if (input == "y") 
